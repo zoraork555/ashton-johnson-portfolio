@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "old": "npm install --production=false && serve dist -s",
-    "start": "node server.js",
+    "start": "npm install --production=false && serve dist -s",
+    "old": "node server.js",
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
