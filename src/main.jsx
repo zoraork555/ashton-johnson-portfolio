@@ -22,4 +22,4 @@ createRoot(document.getElementById('root')).render(
       </Routes>
     </BrowserRouter>
   </StrictMode>,
-)
+).listen(process.env.PORT || 5173)
