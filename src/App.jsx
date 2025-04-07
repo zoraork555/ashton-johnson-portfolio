@@ -4,10 +4,7 @@ import './App.css'
 import './styles/Home.css'
 
 function App() {
-    const port = (process.env.PORT || 5000);
-    console.log(port);
-
-    return (
+  return (
     <main className="main" style={{width: "100%"}}>
       <div className="container">
         <div className="header">
