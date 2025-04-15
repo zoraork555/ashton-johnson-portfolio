@@ -1,155 +1,154 @@
 .container {
-    width: 500px;
-    max-width: 1440px;
-    padding: 0 1rem;
-    margin: 0 auto;
+  width: 700px;
+  max-width: 1440px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.gradient-text-0 {
+  background: -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-1 {
+  background: -webkit-linear-gradient(#a79af9, #7aa8d2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-2 {
+  background: -webkit-linear-gradient(#bfa3da, #743f93);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-3 {
+  background: -webkit-linear-gradient(#c35ab1, #e9a8d9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+  text-decoration-color: #84309c;
+} */
+
+.title {
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: left;
+}
+
+.connect {
+  margin-bottom: 2rem;
+}
+
+.description {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #555;
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: 1.1rem;
+}
+
+.grid {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blocks {
+  display: normal;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.nav {
+  font-family: Helvetica;
+  background-color: #131313 !important;
+  color: inherit;
+  border-radius: 10px;
+  display: fixed;
+  top: 5px;
+  z-index: 999;
+  width: 50%;
+  height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.nav a {
+  color: #7aa8d2;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card {
+  background-color: #131313;
+  text-align: left;
+  color: inherit;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  padding: 1rem;
+}
+
+.card h2 {
+  margin: 0 0 0.75rem 0;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-left: 0;
   }
-  
-  .gradient-text-0 {
-    background: -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .gradient-text-1 {
-    background: -webkit-linear-gradient(#a79af9, #7aa8d2);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .gradient-text-2 {
-    background: -webkit-linear-gradient(#bfa3da, #743f93);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .gradient-text-3 {
-    background: -webkit-linear-gradient(#c35ab1, #e9a8d9);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  /* .title a:hover,
-  .title a:focus,
-  .title a:active {
-    text-decoration: underline;
-    text-decoration-color: #84309c;
-  } */
-  
-  .title {
-    line-height: 1.15;
-    font-size: 4rem;
-  }
-  
-  .title,
-  .description {
-    text-align: left;
-  }
-  
-  .connect {
-    margin-bottom: 2rem;
-  }
-  
-  .description {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    line-height: 1.5;
-    font-size: 1.5rem;
-  }
-  
-  .code {
-    background: #555;
-    border-radius: 5px;
-    padding: 0.5em;
-    font-size: 1.1rem;
-  }
-  
   .grid {
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .blocks {
-    display: normal;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
+    flex-direction: column;
   }
+  .title {
+    font-size: 3rem;
+    line-height: 1.15;
+  }
+}
 
-  .nav {
-    font-family: Helvetica;
-    background-color: #131313 !important;
-    color: inherit;
-    border-radius: 10px;
-    display: fixed;
-    top: 5px;
-    z-index: 999;
-    width: 50%;
-    height: 23px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-  }
-
-  .nav a {
-    color: #7aa8d2;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  .card {
-    background-color: #131313;
-    text-align: left;
-    color: inherit;
-    border-radius: 10px;
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  .card-text {
-    padding: 1rem;
-  }
-  
-  .card h2 {
-    margin: 0 0 0.75rem 0;
-  }
-  
-  .card p {
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.75;
-  }
-  
-  .logo {
-    height: 1em;
-    margin-left: 0.5rem;
-  }
-  
-  @media (max-width: 768px) {
-    .header {
-      margin-left: 0;
-    }
-    .grid {
-      width: 100%;
-      flex-direction: column;
-    }
-    .title {
-      font-size: 3rem;
-      line-height: 1.15;
-    }
-  }
-  
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.card,
+.footer {
+  border-color: #222;
+}
+.logo img {
+  filter: invert(1);
+}
