@@ -46,8 +46,7 @@ const Projects = () => {
     <main className="main" style={{width: "100%"}}>
       <div className="container">
         <div className="header">
-          <h2 className="title">
-            {" "}
+          <h2 className="subtitle">
             <span className="gradient-text-2">
               <a target="_blank" rel="noopener noreferrer">
                 Projects
