@@ -8,9 +8,9 @@ function App() {
     <main className="main" style={{width: "100%"}}>
       <div className="container">
         <div className="header">
-          <h2 className="title">
+          <h2 className="subtitle">
             <span className="gradient-text-2">
-              <a target="_blank" rel="noopener noreferrer">
+              <a id="education" target="_blank" rel="noopener noreferrer">
                 Education
               </a>
             </span>
@@ -35,7 +35,7 @@ function App() {
 
           <a className="card">
             <div className="card-text">
-              <h2 className="gradient-text-2">University of Alabama</h2>
+              <h2 className="gradient-text-1">University of Alabama</h2>
               <p>
                 Master of Science in Computer Science &mdash; Dec 2023
               </p>
@@ -47,9 +47,9 @@ function App() {
         </div>
 
         <div className="header">
-          <h2 className="title">
+          <h2 className="subtitle">
             <span className="gradient-text-2">
-              <a target="_blank" rel="noopener noreferrer">
+              <a id="proexperience" target="_blank" rel="noopener noreferrer">
                 Professional Experience
               </a>
             </span>
@@ -59,7 +59,7 @@ function App() {
         <div>
           <a className="card">
             <div className="card-text">
-              <h2 className="gradient-text-3">University of Alabama, Computer Science Department</h2>
+              <h2 className="gradient-text-1">University of Alabama, Computer Science Department</h2>
               <h4>Graduate Student Researcher</h4>
               <p>May 2023 - December 2023</p>
               <ul>
@@ -73,7 +73,7 @@ function App() {
         <div>
           <a className="card">
             <div className="card-text">
-              <h2 className="gradient-text-3">University of Alabama, English Department</h2>
+              <h2 className="gradient-text-1">University of Alabama, English Department</h2>
               <h4>Web Developer</h4>
               <p>August 2022 - December 2022</p>
               <ul>
@@ -88,7 +88,7 @@ function App() {
         <div>
           <a className="card">
             <div className="card-text">
-              <h2 className="gradient-text-3">Torch Technologies Inc.</h2>
+              <h2 className="gradient-text-1">Torch Technologies Inc.</h2>
               <h4>Systems Analysis and Simulation Engineer, Intern</h4>
               <p>May 2021 - August 2021, May 2022 - August 2022</p>
               <ul>
@@ -101,9 +101,9 @@ function App() {
         </div>
 
         <div className="header">
-          <h2 className="title">
+          <h2 className="subtitle">
             <span className="gradient-text-2">
-              <a target="_blank" rel="noopener noreferrer">
+              <a id="otherexperience" target="_blank" rel="noopener noreferrer">
                 Other Experience
               </a>
             </span>
@@ -113,7 +113,7 @@ function App() {
         <div>
           <a className="card">
             <div className="card-text">
-              <h2 className="gradient-text-3">University of Alabama, Ceramics Department</h2>
+              <h2 className="gradient-text-1">University of Alabama, Ceramics Department</h2>
               <h4>Lab Assistant</h4>
               <p>August 2022 - December 2023</p>
               <ul>
@@ -124,6 +124,77 @@ function App() {
             </div>
           </a>
         </div>
+
+        <div className="header">
+          <h2 className="subtitle">
+            <span className="gradient-text-2">
+              <a id="references" target="_blank" rel="noopener noreferrer">
+                References
+              </a>
+            </span>
+          </h2>
+        </div>
+
+        <div className="blocks">
+          <a className="card">
+            <div className="card-text">
+              <p>References can be provided upon request.</p>
+            </div>
+          </a>
+        </div>
+
+        <div className="header">
+          <h2 className="subtitle">
+            <span className="gradient-text-2">
+              <a id="certifications" target="_blank" rel="noopener noreferrer">
+                Certifications
+              </a>
+            </span>
+          </h2>
+        </div>
+
+        <div className="blocks">
+          <a className="card">
+            <div className="card-text">
+              <p>Secret-level government clearance - inactive, but is eligible for reactivation.</p>
+            </div>
+          </a>
+        </div>
+
+        <div className="header">
+          <h2 className="subtitle">
+            <span className="gradient-text-2">
+              <a id="contact" target="_blank" rel="noopener noreferrer">
+                Contact
+              </a>
+            </span>
+          </h2>
+        </div>
+
+        <div className="blocks">
+          <a className="card">
+            <div className="card-text">
+              <p>Email: <a href="mailto:acjohnson30@crimson.ua.edu">acjohnson30@crimson.ua.edu</a></p>
+              <p>Phone: (256) 612-9320</p>
+              <p><a href="https://github.com/zoraork555/">Github</a></p>
+              <p><a href="https://linkedin.com/in/acjohnson30/">Linkedin</a></p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div style={{display: "none"}}>
+        <nav id ="side-navbar">
+          <header id = "title">Sections</header>
+          <ul>
+            <li><a class = "nav-link" href="#education"> Education </a></li>
+            <li><a class = "nav-link" href="#proexperience"> Professional Experience </a></li>
+            <li><a class = "nav-link" href="#otherexperience"> Other Experience </a></li>
+            <li><a class = "nav-link" href="#references"> References </a></li>
+            <li><a class = "nav-link" href="#certifications"> Certifications </a></li>
+            <li><a class = "nav-link" href="#contact"> Contact </a></li>
+          </ul>
+        </nav>
       </div>
     </main>
   );

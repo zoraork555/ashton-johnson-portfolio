@@ -13,7 +13,7 @@ const About = () => {
             </span>
           </h2>
         </div>
-
+  
         <div className="blocks">
           <a className="card">
             <div className="card-text">
