@@ -15,6 +15,7 @@ createRoot(document.getElementById('root')).render(
           <Link to="/projects">Projects</Link>|
           <Link to="/about">About</Link>
         </div>
+        <p>Made with React.js and Node.js. Hosted on Heroku.</p>
       <Routes>
         <Route path="/projects" element={<Projects />} />
         <Route path="/" element={<App />} />
